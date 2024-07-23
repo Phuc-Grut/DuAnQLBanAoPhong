@@ -77,9 +77,8 @@
             panelMenu.Controls.Add(panelLogo);
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
-            panelMenu.Margin = new Padding(3, 2, 3, 2);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(192, 584);
+            panelMenu.Size = new Size(219, 779);
             panelMenu.TabIndex = 0;
             // 
             // submenu
@@ -88,10 +87,9 @@
             submenu.Controls.Add(btn_nsx);
             submenu.Controls.Add(btn_ms);
             submenu.Controls.Add(btn_size);
-            submenu.Location = new Point(35, 334);
-            submenu.Margin = new Padding(3, 2, 3, 2);
+            submenu.Location = new Point(40, 445);
             submenu.Name = "submenu";
-            submenu.Size = new Size(215, 207);
+            submenu.Size = new Size(246, 276);
             submenu.TabIndex = 16;
             submenu.Visible = false;
             submenu.Paint += submenu_Paint;
@@ -101,11 +99,10 @@
             btn_sp.FlatAppearance.BorderSize = 0;
             btn_sp.FlatStyle = FlatStyle.Flat;
             btn_sp.ForeColor = Color.Gainsboro;
-            btn_sp.Location = new Point(3, -2);
-            btn_sp.Margin = new Padding(3, 2, 3, 2);
+            btn_sp.Location = new Point(3, -3);
             btn_sp.Name = "btn_sp";
-            btn_sp.Padding = new Padding(10, 0, 0, 0);
-            btn_sp.Size = new Size(169, 45);
+            btn_sp.Padding = new Padding(11, 0, 0, 0);
+            btn_sp.Size = new Size(193, 60);
             btn_sp.TabIndex = 10;
             btn_sp.Text = "  Sản phẩm";
             btn_sp.TextAlign = ContentAlignment.MiddleLeft;
@@ -119,11 +116,10 @@
             btn_nsx.FlatStyle = FlatStyle.Flat;
             btn_nsx.ForeColor = Color.Gainsboro;
             btn_nsx.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_nsx.Location = new Point(3, 93);
-            btn_nsx.Margin = new Padding(3, 2, 3, 2);
+            btn_nsx.Location = new Point(3, 124);
             btn_nsx.Name = "btn_nsx";
-            btn_nsx.Padding = new Padding(10, 0, 0, 0);
-            btn_nsx.Size = new Size(169, 45);
+            btn_nsx.Padding = new Padding(11, 0, 0, 0);
+            btn_nsx.Size = new Size(193, 60);
             btn_nsx.TabIndex = 11;
             btn_nsx.Text = "Nhà sản xuất";
             btn_nsx.TextAlign = ContentAlignment.MiddleLeft;
@@ -137,11 +133,10 @@
             btn_ms.FlatStyle = FlatStyle.Flat;
             btn_ms.ForeColor = Color.Gainsboro;
             btn_ms.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_ms.Location = new Point(3, 142);
-            btn_ms.Margin = new Padding(3, 2, 3, 2);
+            btn_ms.Location = new Point(3, 189);
             btn_ms.Name = "btn_ms";
-            btn_ms.Padding = new Padding(10, 0, 0, 0);
-            btn_ms.Size = new Size(169, 45);
+            btn_ms.Padding = new Padding(11, 0, 0, 0);
+            btn_ms.Size = new Size(193, 60);
             btn_ms.TabIndex = 9;
             btn_ms.Text = "  Màu sắc";
             btn_ms.TextAlign = ContentAlignment.MiddleLeft;
@@ -155,11 +150,10 @@
             btn_size.FlatStyle = FlatStyle.Flat;
             btn_size.ForeColor = Color.Gainsboro;
             btn_size.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_size.Location = new Point(3, 44);
-            btn_size.Margin = new Padding(3, 2, 3, 2);
+            btn_size.Location = new Point(3, 59);
             btn_size.Name = "btn_size";
-            btn_size.Padding = new Padding(10, 0, 0, 0);
-            btn_size.Size = new Size(169, 45);
+            btn_size.Padding = new Padding(11, 0, 0, 0);
+            btn_size.Size = new Size(193, 60);
             btn_size.TabIndex = 10;
             btn_size.Text = "  Size";
             btn_size.TextAlign = ContentAlignment.MiddleLeft;
@@ -175,11 +169,10 @@
             button6.ForeColor = Color.Gainsboro;
             button6.Image = (Image)resources.GetObject("button6.Image");
             button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.Location = new Point(0, 285);
-            button6.Margin = new Padding(3, 2, 3, 2);
+            button6.Location = new Point(0, 380);
             button6.Name = "button6";
-            button6.Padding = new Padding(10, 0, 0, 0);
-            button6.Size = new Size(192, 45);
+            button6.Padding = new Padding(11, 0, 0, 0);
+            button6.Size = new Size(219, 60);
             button6.TabIndex = 15;
             button6.Text = "  Sản phẩm";
             button6.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -194,11 +187,10 @@
             btn_thongke.ForeColor = Color.Gainsboro;
             btn_thongke.Image = (Image)resources.GetObject("btn_thongke.Image");
             btn_thongke.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_thongke.Location = new Point(0, 240);
-            btn_thongke.Margin = new Padding(3, 2, 3, 2);
+            btn_thongke.Location = new Point(0, 320);
             btn_thongke.Name = "btn_thongke";
-            btn_thongke.Padding = new Padding(10, 0, 0, 0);
-            btn_thongke.Size = new Size(192, 45);
+            btn_thongke.Padding = new Padding(11, 0, 0, 0);
+            btn_thongke.Size = new Size(219, 60);
             btn_thongke.TabIndex = 14;
             btn_thongke.Text = "  Thống kê";
             btn_thongke.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -213,11 +205,10 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = Color.Gainsboro;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(0, 539);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(0, 719);
             button1.Name = "button1";
-            button1.Padding = new Padding(10, 0, 0, 0);
-            button1.Size = new Size(192, 45);
+            button1.Padding = new Padding(11, 0, 0, 0);
+            button1.Size = new Size(219, 60);
             button1.TabIndex = 6;
             button1.Text = "Đăng xuất";
             button1.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -232,11 +223,10 @@
             btn_nhanvien.ForeColor = Color.Gainsboro;
             btn_nhanvien.Image = (Image)resources.GetObject("btn_nhanvien.Image");
             btn_nhanvien.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_nhanvien.Location = new Point(0, 195);
-            btn_nhanvien.Margin = new Padding(3, 2, 3, 2);
+            btn_nhanvien.Location = new Point(0, 260);
             btn_nhanvien.Name = "btn_nhanvien";
-            btn_nhanvien.Padding = new Padding(10, 0, 0, 0);
-            btn_nhanvien.Size = new Size(192, 45);
+            btn_nhanvien.Padding = new Padding(11, 0, 0, 0);
+            btn_nhanvien.Size = new Size(219, 60);
             btn_nhanvien.TabIndex = 3;
             btn_nhanvien.Text = "  Nhân Viên";
             btn_nhanvien.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -251,11 +241,10 @@
             btn_khachhang.ForeColor = Color.Gainsboro;
             btn_khachhang.Image = (Image)resources.GetObject("btn_khachhang.Image");
             btn_khachhang.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_khachhang.Location = new Point(0, 150);
-            btn_khachhang.Margin = new Padding(3, 2, 3, 2);
+            btn_khachhang.Location = new Point(0, 200);
             btn_khachhang.Name = "btn_khachhang";
-            btn_khachhang.Padding = new Padding(10, 0, 0, 0);
-            btn_khachhang.Size = new Size(192, 45);
+            btn_khachhang.Padding = new Padding(11, 0, 0, 0);
+            btn_khachhang.Size = new Size(219, 60);
             btn_khachhang.TabIndex = 2;
             btn_khachhang.Text = "  Khách Hàng";
             btn_khachhang.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -270,11 +259,10 @@
             btn_hoadon.ForeColor = Color.Gainsboro;
             btn_hoadon.Image = (Image)resources.GetObject("btn_hoadon.Image");
             btn_hoadon.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_hoadon.Location = new Point(0, 105);
-            btn_hoadon.Margin = new Padding(3, 2, 3, 2);
+            btn_hoadon.Location = new Point(0, 140);
             btn_hoadon.Name = "btn_hoadon";
-            btn_hoadon.Padding = new Padding(10, 0, 0, 0);
-            btn_hoadon.Size = new Size(192, 45);
+            btn_hoadon.Padding = new Padding(11, 0, 0, 0);
+            btn_hoadon.Size = new Size(219, 60);
             btn_hoadon.TabIndex = 1;
             btn_hoadon.Text = "  Hóa Đơn";
             btn_hoadon.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -289,11 +277,10 @@
             btn_buy.ForeColor = Color.Gainsboro;
             btn_buy.Image = (Image)resources.GetObject("btn_buy.Image");
             btn_buy.ImageAlign = ContentAlignment.MiddleLeft;
-            btn_buy.Location = new Point(0, 60);
-            btn_buy.Margin = new Padding(3, 2, 3, 2);
+            btn_buy.Location = new Point(0, 80);
             btn_buy.Name = "btn_buy";
-            btn_buy.Padding = new Padding(10, 0, 0, 0);
-            btn_buy.Size = new Size(192, 45);
+            btn_buy.Padding = new Padding(11, 0, 0, 0);
+            btn_buy.Size = new Size(219, 60);
             btn_buy.TabIndex = 0;
             btn_buy.Text = "  Bán Hàng";
             btn_buy.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -306,10 +293,9 @@
             panelLogo.Controls.Add(label2);
             panelLogo.Dock = DockStyle.Top;
             panelLogo.Location = new Point(0, 0);
-            panelLogo.Margin = new Padding(3, 2, 3, 2);
             panelLogo.Name = "panelLogo";
-            panelLogo.Padding = new Padding(10, 0, 0, 0);
-            panelLogo.Size = new Size(192, 60);
+            panelLogo.Padding = new Padding(11, 0, 0, 0);
+            panelLogo.Size = new Size(219, 80);
             panelLogo.TabIndex = 0;
             // 
             // label2
@@ -317,9 +303,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(13, 16);
+            label2.Location = new Point(15, 21);
             label2.Name = "label2";
-            label2.Size = new Size(139, 17);
+            label2.Size = new Size(170, 20);
             label2.TabIndex = 1;
             label2.Text = "QUẢN LÍ BÁN HÀNG";
             // 
@@ -329,10 +315,9 @@
             panelHome.Controls.Add(btn_closechildform);
             panelHome.Controls.Add(lb_home);
             panelHome.Dock = DockStyle.Top;
-            panelHome.Location = new Point(192, 0);
-            panelHome.Margin = new Padding(3, 2, 3, 2);
+            panelHome.Location = new Point(219, 0);
             panelHome.Name = "panelHome";
-            panelHome.Size = new Size(1147, 60);
+            panelHome.Size = new Size(1311, 80);
             panelHome.TabIndex = 0;
             // 
             // btn_closechildform
@@ -342,9 +327,8 @@
             btn_closechildform.FlatStyle = FlatStyle.Flat;
             btn_closechildform.Image = Properties.Resources.icons8_multiply_64;
             btn_closechildform.Location = new Point(0, 0);
-            btn_closechildform.Margin = new Padding(3, 2, 3, 2);
             btn_closechildform.Name = "btn_closechildform";
-            btn_closechildform.Size = new Size(82, 60);
+            btn_closechildform.Size = new Size(94, 80);
             btn_closechildform.TabIndex = 0;
             btn_closechildform.UseVisualStyleBackColor = true;
             btn_closechildform.Click += btn_closechildform_Click;
@@ -355,9 +339,9 @@
             lb_home.AutoSize = true;
             lb_home.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point);
             lb_home.ForeColor = SystemColors.ButtonHighlight;
-            lb_home.Location = new Point(535, 16);
+            lb_home.Location = new Point(611, 21);
             lb_home.Name = "lb_home";
-            lb_home.Size = new Size(78, 26);
+            lb_home.Size = new Size(95, 31);
             lb_home.TabIndex = 0;
             lb_home.Text = "HOME";
             // 
@@ -365,10 +349,9 @@
             // 
             panelmanchinh.Controls.Add(panel1);
             panelmanchinh.Dock = DockStyle.Fill;
-            panelmanchinh.Location = new Point(192, 60);
-            panelmanchinh.Margin = new Padding(3, 2, 3, 2);
+            panelmanchinh.Location = new Point(219, 80);
             panelmanchinh.Name = "panelmanchinh";
-            panelmanchinh.Size = new Size(1147, 524);
+            panelmanchinh.Size = new Size(1311, 699);
             panelmanchinh.TabIndex = 1;
             // 
             // panel1
@@ -380,36 +363,35 @@
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1147, 524);
+            panel1.Size = new Size(1311, 699);
             panel1.TabIndex = 6;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(678, 348);
+            label5.Location = new Point(775, 464);
             label5.Name = "label5";
-            label5.Size = new Size(133, 15);
+            label5.Size = new Size(177, 20);
             label5.TabIndex = 10;
-            label5.Text = "Chủ cửa hàng : Nhóm 6";
+            label5.Text = "Chủ cửa hàng : PhucGrunt";
             label5.Click += label5_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(668, 379);
+            label4.Location = new Point(763, 505);
             label4.Name = "label4";
-            label4.Size = new Size(145, 15);
+            label4.Size = new Size(188, 20);
             label4.TabIndex = 9;
             label4.Text = "Số điện thoại : 0999999999";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(551, 406);
+            label3.Location = new Point(630, 541);
             label3.Name = "label3";
-            label3.Size = new Size(384, 15);
+            label3.Size = new Size(479, 20);
             label3.TabIndex = 8;
             label3.Text = "Địa chỉ : Cao Đẳng FPTPOLYTECHNIC , Kiều Mai , Nam Từ Liêm , Hà Nội";
             // 
@@ -417,31 +399,29 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(578, 45);
+            label1.Location = new Point(661, 60);
             label1.Name = "label1";
-            label1.Size = new Size(357, 45);
+            label1.Size = new Size(440, 54);
             label1.TabIndex = 7;
             label1.Text = "SHOP ÁO PHÔNG POLY";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources._317502577_671965111066981_3787928448780715536_n;
-            pictureBox1.Location = new Point(609, 95);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(696, 127);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(295, 226);
+            pictureBox1.Size = new Size(337, 301);
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
             // FrmMenu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1339, 584);
+            ClientSize = new Size(1530, 779);
             Controls.Add(panelmanchinh);
             Controls.Add(panelHome);
             Controls.Add(panelMenu);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "FrmMenu";
             Text = "FrmMenu";
             WindowState = FormWindowState.Maximized;

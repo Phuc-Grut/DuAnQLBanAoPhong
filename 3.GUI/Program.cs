@@ -12,7 +12,7 @@ namespace _3.GUI
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new FrmNV());
+            Application.Run(new FRDangNhap());
             //daonvph18705 @gmail.com
         }
     }

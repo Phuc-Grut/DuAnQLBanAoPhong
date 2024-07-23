@@ -69,7 +69,7 @@ namespace _3.GUI.View.FromSanPham
             {
                 cb_size.Items.Add(item.SiZe.ToString());
             }
-            cb_size.SelectedIndex = 0;
+            cb_size.SelectedIndex = 0; 
         }
         public void LoadloaiHang()
         {
